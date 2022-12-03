@@ -1,15 +1,29 @@
-span{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: blue;
-    color: white;
+header {
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
-li{
-    text-decoration: none;
-}
-#h1, h2, title{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+nav {
+background-color: whitesmoke
+font-size: 20px;
 
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+li {
+    margin-left: 1.5rem;
+    list-style: none;
+
+}
+main {
+    background-color: wheat;
+}
+footer {
+    background-color: wheat;
 }
